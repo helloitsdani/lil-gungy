@@ -324,6 +324,25 @@
             }
         },
         {
+            "Key": "60154699-48f9-4827-98ad-fbaa9c10034c",
+            "Value": {
+                "id": "4c153866-96a1-447c-be3b-716f198bdca2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_fairy\/spr_fairy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68cbd0cd-d834-423d-b3e8-da1a1557bb6d",
             "Value": {
                 "id": "c732afdc-8d47-4e50-a647-f6d38add962d",
@@ -777,6 +796,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f87719e2-1364-455a-b1a2-b4d1c530648f",
+            "Value": {
+                "id": "4ab659f1-1f74-4e36-a40b-027016efe8d8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_fairy\/obj_fairy.yy",
+                "resourceType": "GMObject"
             }
         },
         {

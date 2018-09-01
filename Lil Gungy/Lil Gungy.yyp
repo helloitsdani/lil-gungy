@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "09b320aa-355c-4fba-99df-1fa07fb57ced",
+            "Value": {
+                "id": "87b7f0e1-76c1-434e-a7fe-e7bca7f9258e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/09b320aa-355c-4fba-99df-1fa07fb57ced.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0e6f7b8e-f34a-4ee3-bbd1-539787d3dcea",
             "Value": {
                 "id": "30a17542-c96d-4141-b3ee-f5df6f4ea121",
@@ -150,6 +169,25 @@
                 ],
                 "resourcePath": "views\/21d74d76-1df7-477c-bace-e73ba92995f8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "280b8182-216b-47f3-89f9-78040b22b721",
+            "Value": {
+                "id": "6bce2ec4-409d-485f-9b02-276143c43560",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_dirt_top_1\/spr_dirt_top_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -454,6 +492,25 @@
                 ],
                 "resourcePath": "views\/d41cb30a-eef3-45fa-9620-beba5dc70365.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9dd5d53-d427-4322-bcde-c5959f08a042",
+            "Value": {
+                "id": "a826b2cb-652c-4b04-9e02-d8ff9e3d3d30",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_dirt\/obj_dirt.yy",
+                "resourceType": "GMObject"
             }
         },
         {

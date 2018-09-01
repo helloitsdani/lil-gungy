@@ -13,3 +13,5 @@ physics_fixture_bind_ext(
 	-(sprite_height / 2),
 	-(sprite_width / 2)
 )
+
+randomDirtFactor = irandom(sprite_get_number(sprite_index))

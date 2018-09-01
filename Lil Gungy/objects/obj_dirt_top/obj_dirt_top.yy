@@ -2,9 +2,18 @@
     "id": "e9dd5d53-d427-4322-bcde-c5959f08a042",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_dirt",
+    "name": "obj_dirt_top",
     "eventList": [
-        
+        {
+            "id": "2dcfb9fa-018c-4c7e-9beb-1748ade16ad8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "e9dd5d53-d427-4322-bcde-c5959f08a042"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

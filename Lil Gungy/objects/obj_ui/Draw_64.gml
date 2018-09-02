@@ -4,8 +4,6 @@ draw_text(10, 10, "welcome to gungy world!!!!!")
 
 with (global.gungy) {
 	draw_text(100, 100, alarm_get(0))
-  draw_text(10, 60, draw_xscale)
-  draw_text(40, 60, draw_yscale)
 	
 	if (state == STATES.jumping) {
 		draw_text(10, 40, "i love to jump!")

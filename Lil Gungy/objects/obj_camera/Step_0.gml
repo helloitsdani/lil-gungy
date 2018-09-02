@@ -7,5 +7,10 @@ y = global.gungy.y
 
 // parallax scrolling of backgrounds
 var cameraXPos = camera_get_view_x(view_camera[0])
-layer_x("foreground_mountains", cameraXPos * 0.2)
+var cameraYPos = camera_get_view_y(view_camera[0])
+
+layer_x("foreground_mountains", cameraXPos * 0.4)
+layer_y("foreground_mountains", cameraYPos)
+
 layer_x("background_mountains", cameraXPos * 0.75)
+layer_y("background_mountains", cameraYPos)

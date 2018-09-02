@@ -12,7 +12,7 @@ draw_xscale = 1
 draw_yscale = 1
 
 // i can see right through you
-opacity = 0.9
+opacity = 0.95
 
 /****************
   Action config

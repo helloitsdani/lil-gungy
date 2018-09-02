@@ -1,7 +1,7 @@
 /// @description State transitions
 
 var dangerAhead = place_meeting(x + scaredy_distance, y, obj_block)
-var mushieAhead = place_meeting(x + 16, y + 8, obj_mushie)
+var mushieAhead = place_meeting(x + 16, y + 4, obj_mushie)
 
 draw_xscale = lerp(draw_xscale, image_xscale, 0.05)
 draw_yscale = lerp(draw_yscale, image_yscale, 0.05)
@@ -60,7 +60,7 @@ switch (state) {
 		}
 	}
     
-	if (dangerAhead) {
+	if (dangerAhead && !mushieAhead) {
 	  if (alarm_get(0) < 0) {
 			alarm_set(0, jumpy_delay)
 		}
@@ -68,7 +68,11 @@ switch (state) {
 	}; break;
 	case STATES.jumping: {
 		if (phy_speed_y == 0) {
-			state = STATES.thinking
+			if (mushieAhead) {
+				state = STATES.moving
+			} else {
+				state = STATES.thinking
+			}
 		}
 	}; break;
 }

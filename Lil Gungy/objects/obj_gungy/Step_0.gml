@@ -1,5 +1,11 @@
 /// @description State transitions
 
+if physics_test_overlap(x + 1, y, 0, obj_unit) {
+	if (score != 100) {
+		return
+	}
+}
+
 var dangerAhead = place_meeting(x + scaredy_distance, y, obj_block)
 var mushieAhead = place_meeting(x + 16, y + 4, obj_mushie)
 

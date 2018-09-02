@@ -1,8 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Move fairy towards pointer
 
-var targetX = obj_pointer.x + 8
-var targetY = obj_pointer.y + 8
+var targetX = obj_pointer.x + pointerDistanceX
+var targetY = obj_pointer.y + pointerDistanceY
 
-x = targetX
-y = targetY
+x = lerp(x, targetX, smoothing)
+y = lerp(y, targetY, smoothing)

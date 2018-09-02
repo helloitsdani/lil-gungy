@@ -1,7 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 draw_sprite(
-	spr_dirt_bottom, randomDirtFactor,
+	spr_dirt_bottom, randomSpriteNumber,
 	x, y
 )

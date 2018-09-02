@@ -1,17 +1,30 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(10, 10, "welcome to gungy world!!!!!")
+var height = display_get_gui_height()
+var width = display_get_gui_width()
+
+draw_text(
+  padding, height - padding - 16,
+  "welcome to gungy world!!!!!"
+ )
 
 with (global.gungy) {
-	draw_text(100, 100, alarm_get(0))
-	
-	if (state == STATES.jumping) {
-		draw_text(10, 40, "i love to jump!")
-	} else if (state == STATES.thinking) {
-		draw_text(10, 40, "hmmmm.....!!")
-	} else if (state == STATES.moving) {
-		draw_text(10, 40, "let's go!")
-	} else {
-		draw_text(10, 40, "idk")
-	}
+  var thoughts = "gungy"
+  
+  switch (state) {
+    case STATES.jumping:
+      thoughts = "i love to jump!"
+      break;
+    case STATES.thinking:
+      thoughts = "hmmmmm....!!"
+      break;
+    case STATES.moving:
+      thoughts = "let's go!"
+      break;
+  }
+  
+  draw_text(
+    other.padding, height - other.padding - 32,
+    thoughts
+  )
 }

@@ -476,6 +476,25 @@
             }
         },
         {
+            "Key": "81f33024-10cf-4223-b314-5eb0abd0ba2a",
+            "Value": {
+                "id": "173f71b5-9625-46fc-a7d8-3eaaf525fe4c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/font_gungy\/font_gungy.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8521d97f-e8c6-4991-aec1-04915e6339ef",
             "Value": {
                 "id": "acc403b6-9d20-4c80-9cea-cc10143c45a4",

@@ -135,6 +135,25 @@
             }
         },
         {
+            "Key": "1f641a83-939d-43aa-af97-7e2b4247c554",
+            "Value": {
+                "id": "a39a211c-3d88-45ab-b1a1-1f534288a92f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_ui_progress_bar\/spr_ui_progress_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21d74d76-1df7-477c-bace-e73ba92995f8",
             "Value": {
                 "id": "6bc5226e-3dd5-4793-818e-6ce612fb3eea",
@@ -451,6 +470,25 @@
             "Value": {
                 "id": "084bb9c6-c911-43eb-ad6d-65029141fd59",
                 "resourcePath": "sprites\/spr_pointer\/spr_pointer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e8843934-6c19-40ab-904a-29ab1c3a55a6",
+            "Value": {
+                "id": "3afd0faf-9d85-49b9-ab55-a7cff0b269ad",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_ui_progress_bar_fill\/spr_ui_progress_bar_fill.yy",
                 "resourceType": "GMSprite"
             }
         },

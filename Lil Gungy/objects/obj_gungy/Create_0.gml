@@ -45,4 +45,5 @@ state = STATES.moving
 // make this instance available to other things
 global.gungy = id
 
-inPositionForMushie = false;
+inPositionForMushie = false
+squashed = false

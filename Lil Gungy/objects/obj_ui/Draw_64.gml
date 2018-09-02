@@ -28,6 +28,30 @@ draw_sprite_ext(
 )
 
 draw_sprite_ext(
+	spr_ui_progress_bar, 0,
+	495, 44,
+	0.5, 0.5,
+	0, c_white,
+	1
+)
+
+draw_sprite_ext(
+	spr_ui_progress_bar_fill, 0,
+	495, 44,
+	progressBarWidth, 0.5,
+	0, c_white,
+	1
+)
+
+draw_sprite_ext(
+	spr_ui_progress_bar, 1,
+	495, 44,
+	0.5, 0.5,
+	0, c_white,
+	1
+)
+
+draw_sprite_ext(
 	spr_ui_hud, 0,
 	0, 0,
 	0.5, 0.5,

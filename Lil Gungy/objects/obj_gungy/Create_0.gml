@@ -1,6 +1,20 @@
 /// @description li'l gungy i am so proud of you
 
 /****************
+  Appearance
+*****************/
+
+// stops li'l gungy from spinning around a lot
+phy_fixed_rotation = true
+
+// default scale, changes when squashing and stretching
+draw_xscale = 1
+draw_yscale = 1
+
+// i can see right through you
+opacity = 0.9
+
+/****************
   Action config
 *****************/
 
@@ -13,12 +27,6 @@ scaredy_distance = 32
 
 // how long it takes li'l gungy to think about something
 jumpy_delay = 2 * room_speed
-
-// stops li'l gungy from spinning around a lot
-phy_fixed_rotation = true
-
-draw_xscale = 1
-draw_yscale = 1
 
 /****************
   State machine

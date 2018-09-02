@@ -191,6 +191,25 @@
             }
         },
         {
+            "Key": "19228f20-e67e-4723-8253-6aecbdbd06ed",
+            "Value": {
+                "id": "6d344f6c-0d0d-4e30-8ee4-cabf0cc16ca0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_mountains_background\/spr_mountains_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "194e9213-c58b-4ed8-886a-d91b94d9c0f5",
             "Value": {
                 "id": "4f4c7a4a-1e3e-433a-b911-aeba16cae165",
@@ -286,6 +305,25 @@
             }
         },
         {
+            "Key": "483f33bf-fd31-4da8-97ee-af00d7303e48",
+            "Value": {
+                "id": "114ac6c7-add6-45e8-a249-d9bf5f442d53",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_mountains_foreground\/spr_mountains_foreground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56cf2d4a-5598-46fe-bb21-dda9a8e65cee",
             "Value": {
                 "id": "b62f1378-ad18-4828-a0fb-040d9c3c411d",
@@ -301,6 +339,25 @@
                     "default"
                 ],
                 "resourcePath": "views\/56cf2d4a-5598-46fe-bb21-dda9a8e65cee.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5849cdc7-b478-427e-add3-06ac3b93a32c",
+            "Value": {
+                "id": "1d36a5cf-a197-4555-808b-41a414bc10b6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/5849cdc7-b478-427e-add3-06ac3b93a32c.yy",
                 "resourceType": "GMFolder"
             }
         },

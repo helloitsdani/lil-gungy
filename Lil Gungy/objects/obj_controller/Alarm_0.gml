@@ -1,4 +1,15 @@
-/// @description Insert description here
-// You can write your code in this editor
+if (timer <= 0) {
+	timerCountingUp = true
+}
 
-alarm[0] = 300
+if (timer >= 999) {
+	timerCountingUp = false
+}
+
+if (timerCountingUp) {
+	timer += 1
+} else {
+	timer -= 1
+}
+
+alarm[0] = room_speed

@@ -19,7 +19,7 @@ var xDrawPos = x + xDrawOffset
 var yDrawPos = y + yDrawOffset
 
 if (state == STATES.jumping) {	
-	if (phy_speed_y > 0) {
+	if (phy_speed_y > 0.9) {
 		draw_sprite_ext(spr_gungy_down, 0, xDrawPos, yDrawPos, draw_xscale, draw_yscale, 0, c_white, opacity)
 	} else if (phy_speed_y < -0.9) {
 		draw_sprite_ext(spr_gungy_up, 0, xDrawPos, yDrawPos, draw_xscale, draw_yscale, 0, c_white, opacity)

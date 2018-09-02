@@ -1,8 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 timer = 300
+timerCountingUp = false
 
-alarm[0] = timer
+alarm[0] = room_speed
 
 global.controller = id
